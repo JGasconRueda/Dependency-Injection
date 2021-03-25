@@ -10,7 +10,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
 import org.springframework.context.annotation.PropertySource;
 
-@PropertySource("classpath:datasource.properties")
 @Configuration
 public class GreetingServiceConfig {
 
